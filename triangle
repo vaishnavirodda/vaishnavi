@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void main(85)
+{
+   int i,n,sum=0;
+   printf("Input the number of terms : ");
+   scanf("%d",&n);
+   printf("\nThe square natural upto %d terms are :",n);
+   for(i=1;i<=n;i++)
+   {
+     printf("%d  ",i*i);
+     sum+=i*i;
+   }
+   printf("\nThe Sum of Square Natural Number upto %d terms = %d \n",n,sum);
+}
+printf("%d\n",x);
+    for (i = 1; i < n; i++) 
+    {
+        ctr = (2 * i + 1);
+        mm = pow(x, ctr);
+        nn = mm * m;
+        printf("%d \n",nn);
+        sum = sum + nn;
+        m = m * (-1);
+	}
+	printf("\nThe sum = %d\n",sum);
+}
