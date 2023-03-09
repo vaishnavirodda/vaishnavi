@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+void main()
+{
+    int a[5],  i;
+
+    printf("Enter the number of elements:\t");
+    scanf("%d", &a[5]);
+
+    printf("Enter %d elements for array 1:\n", a);
+
+    for (i = 0; i < 5; i++)
+        scanf("%d", &a[i]);
+
+    printf("Enter %d elements for array 2:\n", a);
+
+    for (i = 0; i < 5; i++)
+        scanf("%d", &a[i]);
+
+    for (i = 0; i < a; i++)
+        
+
+    printf("Sum of two array elements are:\n");
+
+    for (i = 0; i < a; i++)
+     printf("%d\n", a[i]);
+}
+
+
+
+
