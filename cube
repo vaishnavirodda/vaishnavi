@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float n;
+	printf("enter any number: ");
+	scanf("%f",&n);
+	printf("the square of the the numberis %f,n*n ");
+	printf("the cube of the number is %f,n*n*n");
+	return 0;
+}
